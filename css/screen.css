@@ -10,7 +10,7 @@ p {
 
 #page {
 	width: 960px;
-	margin: 2em auto;
+	margin: 32px auto;
 }
 
 #header, nav {
@@ -19,19 +19,19 @@ p {
 
 #header {
 	border-bottom: 3px double #DB008B;
-	margin-bottom: 3em;
+	margin-bottom: 48px;
 }
 
 #header hgroup {
 	text-align: center;
 	position: relative;
-	padding-bottom: 2em;
+	padding-bottom: 32px;
 }
 
 #header h1 {
 	font-family: Georgia, serif;
 	font-style:  italic;
-	font-size: 4.5em;
+	font-size: 72px;
 	font-weight: normal;
 	text-shadow: 0 1px 0 #F8F7F6;
 	color: #B2B1AD;
@@ -45,15 +45,15 @@ p {
 
 #header .subtitle_wrapper {
 	position: absolute;
-	bottom: -0.75em;
+	bottom: -12px;
 	left: 0;
-	width: 100%;
+	width: 960px;
 	display: block;
 }
 
 #header h2 {
 	color: #DB008B;
-	font-size: 1.875em;
+	font-size: 30px;
 	font-family: Georgia, serif;
 	padding: 0 20px;
 	background: #DFDDD7;
@@ -62,15 +62,15 @@ p {
 }
 
 nav {
-	height: 2em;
-	margin-bottom: 3em;
+	height: 32px;
+	margin-bottom: 48px;
 }
 
 nav ul {
 	width: 940px;
 	text-align: center;
-	line-height: 1.5em;
-	font-size: 1.5em;
+	line-height: 36px;
+	font-size: 24px;
 }
 
 nav li {
@@ -80,7 +80,7 @@ nav li {
 
 nav li a {
 	text-decoration: none;
-	padding: .25em 30px;
+	padding: 6px 30px;
 	background: #D3D1CC;
 	color: #2C2C2C;
 	border-radius: 10px;
@@ -126,14 +126,14 @@ article p {
 
 article figure {
 	float: left;
+	width: 213px;
 	margin-right: 13px;
-	margin-bottom: 16px;
+	margin-bottom: 6px;
 }
 
 article figure img {
 	display: block;
 	width: 213px;
-	height: 169px;
 	background: #333;
 }
 
@@ -143,11 +143,15 @@ article figure figcaption {
 	color: #da008a;
 }
 
-article footer, article footer a {
+article footer {
 	margin-top: 16px;
 	color: #838383;
 	font-size: 14px;
 	line-height: 18px;
+}
+
+article footer a {
+	color: #838383;
 }
 
 article footer time {
@@ -164,16 +168,16 @@ aside h1 {
 	color: #da008a;
 	font-family: Georgia, serif;
 	font-size: 26px;
-	margin-bottom: 4px;
+	margin-bottom: 16px;
 	font-weight: normal;
 	font-style: italic;
 }
 
-aside section > section {
+aside section {
 	margin-bottom: 32px;
 }
 
-aside section section h1 {
+aside section h1 {
 	font-size: 18px;
 	font-family: Verdana;
 	color: #2d2d2d;
@@ -183,7 +187,7 @@ aside section section h1 {
 	margin-top: 8px;
 }
 
-aside section section p {
+aside section p {
 	color: #838383;
 }
 
@@ -191,7 +195,7 @@ aside ul {
 	list-style: none;
 }
 
-aside .last_tweets {
+aside {
 	line-height: 18px;
 }
 
@@ -201,12 +205,9 @@ aside .last_tweets li {
 }
 
 aside .last_tweets img {
-	display: block;
 	width: 30px;
-	height: 30px;
 	border: 1px solid #2d2d2d;
 	background: #838383;
-	margin-bottom: 10px;
 }
 
 aside .last_tweets a {
@@ -216,12 +217,8 @@ aside .last_tweets a {
 	clear: both;
 }
 
-aside .playlist {
-	overflow: hidden;
-}
-
 aside .playlist ul li {
-	width: 84px;
+	width: 86px;
 	margin-right: 16px;
 	margin-bottom: 16px;
 	float: left;
@@ -232,11 +229,10 @@ aside .playlist ul li:nth-child(3n) {
 }
 
 aside .playlist ul li img {
+	border: solid 1px #959595;
 	display: block;
 	width: 84px;
-	height: 84px;
 	max-width: 100%;
-	border: solid 1px 95959595;
 	background: #ccc;
 }
 
