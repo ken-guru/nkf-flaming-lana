@@ -47,7 +47,7 @@ p {
 	position: absolute;
 	bottom: -12px;
 	left: 0;
-	width: 100%; /* 960 / 960 */
+	width: 960px;
 	display: block;
 }
 
@@ -67,15 +67,15 @@ nav {
 }
 
 nav ul {
-	width: 100%; /* 940 / 940 (merk padding på nav fra linje 17) */
+	width: 940px;
 	text-align: center;
-	line-height: 1.5em; /* 36 / 24 */
+	line-height: 36px;
 	font-size: 1.5em; /* 24 / 16 */
 }
 
 nav li {
 	display: inline-block;
-	width: 23.9361702127%; /* 225 / 940 */
+	width: 225px;
 }
 
 nav li a {
@@ -92,12 +92,12 @@ nav li a:hover {
 }
 
 #main_content {
-	width: 66.6666666666%; /* 640 / 960 */
+	width: 640px;
 	float: left;
 }
 
 #main_content article {
-	width: 93.75%; /* 600 / 640 */
+	width: 600px;
 	padding: 0 20px 36px 20px;
 	margin-bottom: 36px;
 	border-bottom: 3px double #DB008B;
@@ -121,25 +121,24 @@ article header {
 }
 
 article p {
-	line-height: 1.125em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 article figure {
 	float: left;
-	width: 35.5%; /* 213 / 600 */
+	width: 213px;
 	margin-right: 13px;
 	margin-bottom: 6px;
 }
 
 article figure img {
 	display: block;
-	width: 100%; /* 213 / 213 */
-	max-width: 100%; /* NB */
+	width: 213px;
 	background: #333;
 }
 
 article figure figcaption {
-	width: 100%; /* 213 / 213 */
+	width: 213px;
 	margin-top: 6px;
 	color: #da008a;
 }
@@ -148,7 +147,7 @@ article footer p {
 	margin-top: 16px;
 	color: #838383;
 	font-size: .875em; /* 14 / 16 */
-	line-height: 1.285714285714em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 article footer a {
@@ -160,7 +159,7 @@ article footer time {
 }
 
 aside {
-	width: 30.2083333333%; /* 290 / 960 */
+	width: 290px;
 	padding: 0 15px;
 	float: right;
 }
@@ -197,7 +196,7 @@ aside ul {
 }
 
 aside {
-	line-height: 1.125em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 aside .last_tweets li {
@@ -206,8 +205,7 @@ aside .last_tweets li {
 }
 
 aside .last_tweets img {
-	width: 10.3448275862%; /* 30 / 290 */
-	max-width: 100%; /* NB */
+	width: 30px;
 	border: 1px solid #2d2d2d;
 	background: #838383;
 }
@@ -220,7 +218,7 @@ aside .last_tweets a {
 }
 
 aside .playlist ul li {
-	width: 29.6551724137%; /* 86 / 290 */
+	width: 86px;
 	margin-right: 16px;
 	margin-bottom: 16px;
 	float: left;
@@ -233,8 +231,8 @@ aside .playlist ul li:nth-child(3n) {
 aside .playlist ul li img {
 	border: solid 1px #959595;
 	display: block;
-	width: 97.6744186046%; /* 84 / 86 */
-	max-width: 100%; /* NB */
+	width: 84px;
+	max-width: 100%;
 	background: #ccc;
 }
 

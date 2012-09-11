@@ -69,7 +69,7 @@ nav {
 nav ul {
 	width: 100%; /* 940 / 940 (merk padding på nav fra linje 17) */
 	text-align: center;
-	line-height: 1.5em; /* 36 / 24 */
+	line-height: 36px;
 	font-size: 1.5em; /* 24 / 16 */
 }
 
@@ -121,7 +121,7 @@ article header {
 }
 
 article p {
-	line-height: 1.125em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 article figure {
@@ -148,7 +148,7 @@ article footer p {
 	margin-top: 16px;
 	color: #838383;
 	font-size: .875em; /* 14 / 16 */
-	line-height: 1.285714285714em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 article footer a {
@@ -197,7 +197,7 @@ aside ul {
 }
 
 aside {
-	line-height: 1.125em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 aside .last_tweets li {
