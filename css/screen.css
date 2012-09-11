@@ -1,0 +1,247 @@
+body {
+	background: #DFDDD7;
+	font-family: Georgia, serif;
+	color: #2d2d2d;
+}
+
+p {
+	font-family: Verdana;
+}
+
+#page {
+	width: 960px;
+	margin: 2em auto;
+}
+
+#header, nav {
+	padding: 0 10px;
+}
+
+#header {
+	border-bottom: 3px double #DB008B;
+	margin-bottom: 3em;
+}
+
+#header hgroup {
+	text-align: center;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+#header h1 {
+	font-family: Georgia, serif;
+	font-style:  italic;
+	font-size: 4.5em;
+	font-weight: normal;
+	text-shadow: 0 1px 0 #F8F7F6;
+	color: #B2B1AD;
+}
+
+#header h1 span {
+	font-family: Baskerville, serif;
+	font-style: italic;
+	color: #DB008B;
+}
+
+#header .subtitle_wrapper {
+	position: absolute;
+	bottom: -0.75em;
+	left: 0;
+	width: 100%;
+	display: block;
+}
+
+#header h2 {
+	color: #DB008B;
+	font-size: 1.875em;
+	font-family: Georgia, serif;
+	padding: 0 20px;
+	background: #DFDDD7;
+	display: inline;
+	font-weight: 200;
+}
+
+nav {
+	height: 2em;
+	margin-bottom: 3em;
+}
+
+nav ul {
+	width: 940px;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.5em;
+}
+
+nav li {
+	display: inline-block;
+	width: 225px;
+}
+
+nav li a {
+	text-decoration: none;
+	padding: .25em 30px;
+	background: #D3D1CC;
+	color: #2C2C2C;
+	border-radius: 10px;
+	box-shadow: 0 1px 0 #F8F7F6;
+}
+
+nav li a:hover {
+	background-color: #c4c2bc;
+}
+
+#main_content {
+	width: 640px;
+	float: left;
+}
+
+#main_content article {
+	width: 600px;
+	padding: 0 20px 36px 20px;
+	margin-bottom: 36px;
+	border-bottom: 3px double #DB008B;
+}
+
+article a {
+	color: #2d2d2d;
+}
+
+article header h1 {
+	color: #da008a;
+	font-family: Georgia, serif;
+	font-size: 26px;
+	margin-bottom: 16px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+article header {
+	margin-bottom: 16px;
+}
+
+article p {
+	line-height: 18px;
+}
+
+article figure {
+	float: left;
+	margin-right: 13px;
+	margin-bottom: 16px;
+}
+
+article figure img {
+	display: block;
+	width: 213px;
+	height: 169px;
+	background: #333;
+}
+
+article figure figcaption {
+	width: 213px;
+	margin-top: 6px;
+	color: #da008a;
+}
+
+article footer, article footer a {
+	margin-top: 16px;
+	color: #838383;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+article footer time {
+	clear: both;
+}
+
+aside {
+	width: 290px;
+	padding: 0 15px;
+	float: right;
+}
+
+aside h1 {
+	color: #da008a;
+	font-family: Georgia, serif;
+	font-size: 26px;
+	margin-bottom: 4px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+aside section > section {
+	margin-bottom: 32px;
+}
+
+aside section section h1 {
+	font-size: 18px;
+	font-family: Verdana;
+	color: #2d2d2d;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 20px;
+	margin-top: 8px;
+}
+
+aside section section p {
+	color: #838383;
+}
+
+aside ul {
+	list-style: none;
+}
+
+aside .last_tweets {
+	line-height: 18px;
+}
+
+aside .last_tweets li {
+	margin-bottom: 20px;
+	font-size: 11px;
+}
+
+aside .last_tweets img {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2d2d2d;
+	background: #838383;
+	margin-bottom: 10px;
+}
+
+aside .last_tweets a {
+	color: #DB008B;
+	text-decoration: none;
+	display: block;
+	clear: both;
+}
+
+aside .playlist {
+	overflow: hidden;
+}
+
+aside .playlist ul li {
+	width: 84px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	float: left;
+}
+
+aside .playlist ul li:nth-child(3n) {
+	margin-right: 0;
+}
+
+aside .playlist ul li img {
+	display: block;
+	width: 84px;
+	height: 84px;
+	max-width: 100%;
+	border: solid 1px 95959595;
+	background: #ccc;
+}
+
+#page > footer {
+	clear: both;
+	color: #838383;
+	padding: 0 20px;
+}
