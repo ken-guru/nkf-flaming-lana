@@ -9,31 +9,31 @@ p {
 }
 
 #page {
-	width: 960px; /* 960 */
-	margin: 2em auto; /* 32 / 16 */
+	width: 960px;
+	margin: 32px auto;
 }
 
 #header, nav {
-	padding: 0 1.0416666666%; /* 10 / 960 */
+	padding: 0 10px;
 }
 
 #header {
-	border-bottom: 0.1875em double #DB008B; /* 3 / 16 */
-	margin-bottom: 3em; /* 48 / 16 */
+	border-bottom: 3px double #DB008B;
+	margin-bottom: 48px;
 }
 
 #header hgroup {
 	text-align: center;
 	position: relative;
-	padding-bottom: 2em; /* 32 / 16 */
+	padding-bottom: 32px;
 }
 
 #header h1 {
 	font-family: Georgia, serif;
 	font-style:  italic;
-	font-size: 4.5em; /* 72 / 16 */
+	font-size: 72px;
 	font-weight: normal;
-	text-shadow: 0 0.013888888888em 0 #F8F7F6; /* 1 / 72 */
+	text-shadow: 0 1px 0 #F8F7F6;
 	color: #B2B1AD;
 }
 
@@ -45,47 +45,46 @@ p {
 
 #header .subtitle_wrapper {
 	position: absolute;
-	bottom: -0.75em; /* -12 / 16*/
+	bottom: -12px;
 	left: 0;
-	width: 100%; /* 940 / 940 */
+	width: 940px;
 	display: block;
 }
 
 #header h2 {
 	color: #DB008B;
-	font-size: 1.875em; /* 30 / 16 */
+	font-size: 30px;
 	font-family: Georgia, serif;
-	padding: 0 4.2553191489%; /* 20 / 940 */
+	padding: 0 20px;
 	background: #DFDDD7;
 	display: inline;
 	font-weight: 200;
 }
 
 nav {
-	height: 2em; /* 32 / 16 */
-	margin-bottom: 3em; /* 48 / 16 */
+	height: 32px;
+	margin-bottom: 48px;
 }
 
 nav ul {
-	width: 100%; /* 940 / 940 (merk padding på nav fra linje 17) */
+	width: 940px;
 	text-align: center;
-	line-height: 1.5em; /* 36 / 24 */
-	font-size: 1.5em; /* 24 / 16 */
+	line-height: 36px;
+	font-size: 24px;
 }
 
 nav li {
 	display: inline-block;
-	width: 23.9361702127%; /* 225 / 940 */
+	width: 225px;
 }
 
 nav li a {
 	text-decoration: none;
-	padding: .25em 13.3333333333%;
-	/* 6 / 24 -- 30 / 225 */
+	padding: 6px 30px;
 	background: #D3D1CC;
 	color: #2C2C2C;
-	border-radius: 0.416666666666em; /* 10 / 24 (kan utelates for konsistens) */
-	box-shadow: 0 0.041666666666em 0 #F8F7F6; /* 1 / 24 */
+	border-radius: 10px;
+	box-shadow: 0 1px 0 #F8F7F6;
 }
 
 nav li a:hover {
@@ -93,16 +92,15 @@ nav li a:hover {
 }
 
 #main_content {
-	width: 66.6666666666%; /* 640 / 960 */
+	width: 640px;
 	float: left;
 }
 
 #main_content article {
-	width: 93.75%; /* 600 / 640 */
-	padding: 0 3.125% 2.25em 3.125%;
-	/* 20 / 640 -- 36 / 16 */
-	margin-bottom: 2.25em; /* 36 / 16 */
-	border-bottom: 0.1875em double #DB008B; /* 3 / 16 */
+	width: 600px;
+	padding: 0 20px 36px 20px;
+	margin-bottom: 36px;
+	border-bottom: 3px double #DB008B;
 }
 
 article a {
@@ -112,45 +110,44 @@ article a {
 article header h1 {
 	color: #da008a;
 	font-family: Georgia, serif;
-	font-size: 1.625em; /* 26 / 16 */
-	margin-bottom: 0.615384615384em; /* 16 / 26 */
+	font-size: 26px;
+	margin-bottom: 16px;
 	font-weight: normal;
 	font-style: italic;
 }
 
 article header {
-	margin-bottom: 1em; /* 16 / 16 */
+	margin-bottom: 16px;
 }
 
 article p {
-	line-height: 1.125em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 article figure {
 	float: left;
-	width: 35.5%; /* 213 / 600 */
-	margin-right: 2.1666666666%; /* 13 / 600 */
-	margin-bottom: 0.375em; /* 6 / 16 */
+	width: 213px;
+	margin-right: 13px;
+	margin-bottom: 6px;
 }
 
 article figure img {
 	display: block;
-	width: 100%; /* 213 / 213 */
-	max-width: 100%; /* NB */
+	width: 213px;
 	background: #333;
 }
 
 article figure figcaption {
-	width: 100%; /* 213 / 213 */
-	margin-top: 0.375em; /* 6 / 16 */
+	width: 213px;
+	margin-top: 6px;
 	color: #da008a;
 }
 
 article footer p {
-	margin-top: 1.142857142857em; /* 16 / 14 */
+	margin-top: 16px;
 	color: #838383;
-	font-size: .875em; /* 14 / 16 */
-	line-height: 1.285714285714em; /* 18 / 16 */
+	font-size: 14px;
+	line-height: 18px;
 }
 
 article footer a {
@@ -162,32 +159,32 @@ article footer time {
 }
 
 aside {
-	width: 30.2083333333%; /* 290 / 960 */
-	padding: 0 1.5625%; /* 15 / 960 */
+	width: 290px;
+	padding: 0 15px;
 	float: right;
 }
 
 aside h1 {
 	color: #da008a;
 	font-family: Georgia, serif;
-	font-size: 1.625em; /* 26 / 16 */
-	margin-bottom: 0.615384615384em; /* 16 / 26 */
+	font-size: 26px;
+	margin-bottom: 16px;
 	font-weight: normal;
 	font-style: italic;
 }
 
 aside section {
-	margin-bottom: 2em; /* 32 / 16 */
+	margin-bottom: 32px;
 }
 
 aside section h1 {
-	font-size: 1.125em; /* 18 / 16 */
+	font-size: 18px;
 	font-family: Verdana;
 	color: #2d2d2d;
 	font-weight: normal;
 	font-style: normal;
-	margin-bottom: 1.111111111111em; /* 20 / 18 */
-	margin-top: 0.444444444444em; /* 8 / 18 */
+	margin-bottom: 20px;
+	margin-top: 8px;
 }
 
 aside section p {
@@ -199,18 +196,17 @@ aside ul {
 }
 
 aside {
-	line-height: 1.125em; /* 18 / 16 */
+	line-height: 18px;
 }
 
 aside .last_tweets li {
-	margin-bottom: 1.25em; /* 20 / 16 */
-	font-size: .6875em; /* 11 / 16 */
+	margin-bottom: 20px;
+	font-size: 11px;
 }
 
 aside .last_tweets img {
-	width: 10.3448275862%; /* 30 / 290 */
-	max-width: 100%; /* NB */
-	border: 0.090909090909em solid #2d2d2d; /* 1 / 11 */
+	width: 30px;
+	border: 1px solid #2d2d2d;
 	background: #838383;
 }
 
@@ -222,26 +218,26 @@ aside .last_tweets a {
 }
 
 aside .playlist ul li {
-	width: 29.6551724137%; /* 86 / 290 */
-	margin-right: 5.517241379%; /* 16 / 290 */
-	margin-bottom: 1em; /* 16 / 16 */
+	width: 86px;
+	margin-right: 16px;
+	margin-bottom: 16px;
 	float: left;
 }
 
 aside .playlist ul li:nth-child(3n) {
-	margin-right: 0%;
+	margin-right: 0;
 }
 
 aside .playlist ul li img {
-	border: solid 0.0625em #959595; /* 1 / 16 */
+	border: solid 1px #959595;
 	display: block;
-	width: 97.6744186046%; /* 84 / 86 */
-	max-width: 100%; /* NB */
+	width: 84px;
+	max-width: 100%;
 	background: #ccc;
 }
 
 #page > footer {
 	clear: both;
 	color: #838383;
-	padding: 0 2.0833333333%; /* 20 / 960 */
+	padding: 0 20px;
 }
